@@ -1,0 +1,203 @@
+
+
+.body {
+	background-color: limegreen;
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	border-radius: 100%;
+	z-index: 5;
+	margin-top: 100px;
+}
+
+.head {
+	background-color: limegreen;
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	border-radius: 100%;
+	z-index: 6;
+	margin-left: 25px;
+}
+
+.leftEye {
+	background-color: white;
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+	z-index: 7;
+	margin-left: 80px; 
+	margin-top: 45px;
+}
+
+.leftPupil {
+	background-color: black;
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	border-radius: 100%;
+	z-index: 8;
+	margin-left: 85px; 
+	margin-top: 50px;
+	animation-name: lookAround;
+	animation-iteration-count: infinite;
+	animation-duration: 1s;
+	animation-direction: alternate;
+}
+
+
+@keyframes lookAround {
+	from {margin-left: 85px;}
+	to {margin-left: 110px;}
+
+}
+
+
+.rightEye {
+	background-color: white;
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+	z-index: 7;
+	margin-left: 150px; 
+	margin-top: 45px;
+}
+
+.rightPupil {
+	background-color: black;
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	border-radius: 100%;
+	z-index: 8;
+	margin-left: 155px; 
+	margin-top: 50px;
+	animation-name: rightLookAround;
+	animation-iteration-count: infinite;
+	animation-duration: 1s;
+	animation-direction: alternate;
+}
+
+@keyframes rightLookAround {
+	from {margin-left: 155px;}
+	to {margin-left: 180px;}
+
+}
+
+.belly {
+	background-color: yellow;
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	z-index: 7;
+	margin-left: 50px;
+	margin-top: 150px;
+}
+
+.leftCheek {
+	background-color: pink;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	z-index: 8;
+	margin-left: 60px;
+	margin-top: 120px;
+}
+
+.rightCheek {
+	background-color: pink;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	z-index: 8;
+	margin-left: 210px;
+	margin-top: 120px;
+}
+
+.mouthOpen {
+	background-color: rgba(0, 0, 0, 1);
+	position: absolute;
+	width: 100px;
+	height: 40px;
+	z-index: 9;
+	border-radius: 100%;
+	margin-left: 100px;
+	margin-top: 155px;
+}
+
+.nose {
+	width: 0; 
+	height: 0; 
+	position: absolute;
+	z-index: 9;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 25px solid #f00;
+	margin-left: 125px;
+	margin-top: 125px;
+}
+
+.leftTopTooth {
+	width: 0; 
+	height: 0; 
+	position: absolute;
+	z-index: 9;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 15px solid #fff;
+	margin-left: 120px;
+	margin-top: 155px;
+}
+
+.topMiddleTooth {
+	width: 0; 
+	height: 0; 
+	position: absolute;
+	z-index: 9;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 15px solid #fff;
+	margin-left: 135px;
+	margin-top: 155px;
+}
+
+.topRightTooth {
+	width: 0; 
+	height: 0; 
+	position: absolute;
+	z-index: 9;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 15px solid #fff;
+	margin-left: 149px;
+	margin-top: 155px;
+}
+.bottomLeftTooth {
+	position: absolute;
+	z-index: 9;
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid white;
+	margin-left: 130px;
+	margin-top: 180px;
+}
+
+.bottomRightTooth {
+	position: absolute;
+	z-index: 9;
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid white;
+	margin-left: 145px;
+	margin-top: 180px;
+}
+
